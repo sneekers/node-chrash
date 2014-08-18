@@ -1,0 +1,31 @@
+{
+  "name": "chrash",
+  "version": "0.0.1",
+  "description": "Chronically updated key-value hash",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sneekers/node-chrash.git"
+  },
+  "keywords": [
+    "cache",
+    "polling"
+  ],
+  "author": "Andy Lin <miloconway@yahoo.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/sneekers/node-chrash/issues"
+  },
+  "homepage": "https://github.com/sneekers/node-chrash",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "sinon": "^1.10.3",
+    "mocha": "^1.21.4"
+  }
+}
